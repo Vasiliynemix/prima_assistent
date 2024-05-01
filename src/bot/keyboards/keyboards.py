@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from enum import StrEnum
+from enum import Enum
 
 from aiogram.filters.callback_data import CallbackData
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, KeyboardButton
@@ -7,7 +7,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, KeyboardBu
 from src.lexicon.lexicon import LexiconMsgKbName
 
 
-class BackToActions(StrEnum):
+class BackToActions(Enum):
     BOOST_MAIN_MENU: str = "boost_main_menu"
     BOOST_SETTINGS: str = "boost_settings"
     BOOST_SETTINGS_REGISTER: str = "boost_settings_register"
