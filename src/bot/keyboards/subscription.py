@@ -1,9 +1,9 @@
 from aiogram.filters.callback_data import CallbackData
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from aiogram.types import InlineKeyboardMarkup
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 from src.bot.keyboards.keyboards import Keyboard
-from src.config import Config, cfg
+from src.config import cfg
 from src.lexicon.lexicon import LexiconMsgKbName
 
 

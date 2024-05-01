@@ -1,4 +1,4 @@
-from enum import StrEnum
+from enum import Enum
 
 from aiogram.filters.callback_data import CallbackData
 from aiogram.types import InlineKeyboardMarkup
@@ -9,7 +9,7 @@ from src.config import cfg
 from src.lexicon.lexicon import LexiconMsgKbName
 
 
-class BoostSettingsActions(StrEnum):
+class BoostSettingsActions(Enum):
     MENU = "menu"
 
 
